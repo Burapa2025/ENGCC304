@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="หน้า-1" id="wR_aF-ewGBHaH5KDCg8b">
-        <mxGraphModel dx="8581" dy="3607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="3091" dy="254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="WIyWlLk6GJQsqaUBKTNV-0"/>
                 <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0"/>
@@ -326,7 +326,7 @@
                 <mxCell id="727" value="" style="edgeStyle=none;html=1;" parent="683" source="728" target="730" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="728" value="ถอดเงินตามจำนวนที่เกินมา" style="rounded=0;whiteSpace=wrap;html=1;" parent="683" vertex="1">
+                <mxCell id="728" value="ทอนเงินตามจำนวนที่เกินมา" style="rounded=0;whiteSpace=wrap;html=1;" parent="683" vertex="1">
                     <mxGeometry x="1582.5300000000002" y="1780" width="135.94" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="729" value="" style="edgeStyle=none;html=1;" parent="683" source="730" target="732" edge="1">
@@ -350,7 +350,7 @@
                 <mxCell id="735" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="683" source="736" target="734" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="736" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;ถอนเงิน&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="683" vertex="1">
+                <mxCell id="736" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;ทอนเงิน&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="683" vertex="1">
                     <mxGeometry x="1592.44" y="2060" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="737" value="" style="edgeStyle=none;html=1;" parent="683" source="738" target="740" edge="1">
