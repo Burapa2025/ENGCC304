@@ -1,44 +1,47 @@
 #include <stdio.h>
 
-int findMax( int arr[], int n ) ;
-int findMin( int arr[], int n ) ;
+int findMax(int arr[], int n);
+int findMin(int arr[], int n);
 
 int main() {
-    int arr[100] ;
-    int n = 0 ;
 
-    printf( "Enter value:\n" ) ;
-    while ( scanf( "%d", &arr[n] ) == 1 ) {
-        n++ ;
-        if ( getchar() == '\n' ) break ;
+    int arr[100];
+    int n = 0;
+
+    printf("Enter value:\n");
+    while (scanf("%d", &arr[n]) == 1 ){
+        n++;
+        if (getchar() == '\n') break;
     }
 
-    printf( "Index: " ) ;
-    for ( int i = 0; i < n; i++ )
-        printf( "%d ", i ) ;
+    printf("Index: ");
+    for (int i = 0; i < n; i++)
+        printf("%d ", i);
+    printf("\nArray: ");
 
-    printf( "\nArray: " ) ;
-    for ( int i = 0; i < n; i++ )
-        printf( "%d ", arr[i] ) ;
-
-    printf( "\n\nMin : %d\n", findMin(arr, n) ) ;
-    printf( "Max : %d\n", findMax(arr, n) ) ;
-
-    return 0 ;
-}//end main
+    for (int i = 0; i < n; i++)
+        printf("%d ", arr[i]);
+    printf("\n\nMin : %d\n", findMin(arr, n));
+    printf("Max : %d\n", findMax(arr, n));
+    return 0;
+}
 
 int findMax(int arr[], int n) {
-    int max = arr[0] ;
-    for ( int i = 1; i < n; i++ )
-        if ( arr[i] > max )
-            max = arr[i] ;
-    return max ;
-}//end of findMax
+    int max = arr[0];
 
-int findMin( int arr[], int n ) {
-    int min = arr[0] ;
-    for ( int i = 1; i < n; i++ )
-        if ( arr[i] < min )
-            min = arr[i] ;
-    return min ;
-}//end of findMin
+    for (int i = 1; i < n; i++)
+        if (arr[i] > max)
+            max = arr[i];
+            
+    return max;
+}
+
+int findMin(int arr[], int n) {
+    int min = arr[0];
+
+    for (int i = 1; i < n; i++)
+        if (arr[i] < min)
+            min = arr[i];
+
+    return min;
+}
